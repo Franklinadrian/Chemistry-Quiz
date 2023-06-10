@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #bc53db;
+        color:#fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        overflow: hidden;
+        margin: 0;
+    }
+.quiz_content.activeQuiz{
+    opacity: 1;
+    z-index: 9;
+    pointer-events: auto;}
+
+ .note{
+    position: absolute;
+     top: 35%;
+    left: 15%;
+    width: 70%; 
+     transition: all 0.3s ease; 
+    
+}  
+p{
+    text-size-adjust: 45px;
+    font-size: 35px;
+    
+}
+.note_info{
+    border:1px solid black;
+    text-align: center;}
+    
+   
+.moveon{
+    width: 30%;
+    height:40px;
+    position: relative;
+    left: 0%;
+    border-radius: 15px;
+}
+
+    #quiz_quest{
+    font-size: 27px;
+    font-weight: 700;
+    padding: 12px 11px ;
+    }
+.quiz_content{
+    border:0.9 solid black;
+    background-color: #fff;
+    color: black;
+    width:50%;
+    position:absolute;
+    top: 20%;
+    left:25%;
+    box-shadow: 0.4px 0.7px 0.8px 0.9px black;
+    border-radius: 5%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+    li{
+        list-style:none ;
+    }
+.pick{
+ background-color:rgb(214, 247, 236) ;
+ border:1px solid rgb(3, 3, 3);
+ margin-bottom: 15px;
+ font-size: 15px;
+ width: 90%;
+ display:inline-block;
+ height: 30px;
+}
+.pick:hover{
+    background-color: blue;
+    color: #fff;
+    height: 40px;
+}
+    
+     
+  button{
+    text-align: center;
+    margin: 5px;
+    width: 30%; 
+    height:40px;
+    position: relative;
+    left: 30%;
+    top:7px;
+    border-radius: 15px;
+}
+.pick:hover{
+    font-size: 18px;
+}
+button:hover{
+    color: #fff;
+    background-color: rgb(95, 219, 241);
+    cursor:pointer;
+}
+
